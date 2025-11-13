@@ -43,22 +43,52 @@ pip install tensorflow numpy matplotlib
 
 This project assumes the following file and directory structure for data and code:
 
+ write this in such a way do that i will directly copy it in the github and it will look as same as here
+
+    Query successful
+
+This looks like a directory tree structure, which is often represented using text-based tree diagrams in README.md files or documentation.
+
+Here is the plain text version that you can copy and paste. I have used a consistent indentation and piping structure to replicate the image as closely as possible:
+
 brain_tumor_classification/
-├── brain_tumor_vgg16_transfer_model.h5 # Saved model (output after training)
-├── brain_tumor_training.py            # Code for model definition, training, and saving
-├── brain_tumor_prediction.py          # Code for loading the model and making single-image predictions
-├── data/
-│   ├── Training/                      # Directory for training and validation data
+├── brain_tumor_vgg16_transfer_model.h5   # Saved model (output after training)
+├── brain_tumor_training.py                # Code for model definition, training, and 
+├── brain_tumor_prediction.py              # Code for loading the model and making sim
+├── data/                                  # Directory for training and validation data
+│   ├── Training/
 │   │   ├── glioma/
 │   │   ├── meningioma/
 │   │   ├── notumor/
 │   │   └── pituitary/
-│   └── Testing/                       # Directory for test data
+│   └── Testing/                           # Directory for test data
 │       ├── glioma/
 │       ├── meningioma/
 │       ├── notumor/
 │       └── pituitary/
 └── README.md
+
+Note: If you want it to look exactly like the image (including the darker background, fixed-width font, and specific line characters), you should wrap it in a code block using triple backticks (```) in your GitHub file, like this:
+
+<pre>
+
+brain_tumor_classification/
+├── brain_tumor_vgg16_transfer_model.h5   # Saved model (output after training)
+├── brain_tumor_training.py                # Code for model definition, training, and 
+├── brain_tumor_prediction.py              # Code for loading the model and making sim
+├── data/                                  # Directory for training and validation data
+│   ├── Training/
+│   │   ├── glioma/
+│   │   ├── meningioma/
+│   │   ├── notumor/
+│   │   └── pituitary/
+│   └── Testing/                           # Directory for test data
+│       ├── glioma/
+│       ├── meningioma/
+│       ├── notumor/
+│       └── pituitary/
+└── README.md
+</pre>    
 
 Note: The provided code snippets in your input use paths like /content/drive/MyDrive/brain_tumor_detection/Training. You must adjust these paths in the training script to point to your actual data directories.
 
