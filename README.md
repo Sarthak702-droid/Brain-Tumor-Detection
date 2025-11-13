@@ -51,25 +51,6 @@ This looks like a directory tree structure, which is often represented using tex
 
 Here is the plain text version that you can copy and paste. I have used a consistent indentation and piping structure to replicate the image as closely as possible:
 
-brain_tumor_classification/
-├── brain_tumor_vgg16_transfer_model.h5   # Saved model (output after training)
-├── brain_tumor_training.py                # Code for model definition, training, and 
-├── brain_tumor_prediction.py              # Code for loading the model and making sim
-├── data/                                  # Directory for training and validation data
-│   ├── Training/
-│   │   ├── glioma/
-│   │   ├── meningioma/
-│   │   ├── notumor/
-│   │   └── pituitary/
-│   └── Testing/                           # Directory for test data
-│       ├── glioma/
-│       ├── meningioma/
-│       ├── notumor/
-│       └── pituitary/
-└── README.md
-
-Note: If you want it to look exactly like the image (including the darker background, fixed-width font, and specific line characters), you should wrap it in a code block using triple backticks (```) in your GitHub file, like this:
-
 <pre>
 
 brain_tumor_classification/
